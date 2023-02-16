@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlightPool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="index.html" class="logo">
+          <img src="img/logo.png" alt="Logo" class="logo"/>
+        </a>
+        <input type="text" class="input input-address" placeholder="Найти рейс" />
+        <button class="button button-primary prim">
+          
+          <select id="Личный кабинет" class="button-text" onchange="window.location.href = this.options[this.selectedIndex].value">
+          <option value="#">Имя: Даниил</option>
+          <option value="#">Фамилия: Иванов</option>
+          <option value="../выбранные пользователи/vibor.html">Доступные рейсы</option>
+          <option value="index.html">Выйти из кабинета</option>
+          </select>
+          </button>
+        </div>
+        <main class="main">
+            <div class="container">
+              <section class="promo">
+                <h1 class="promo-title">Наш девиз</h1>
+                <p class="promo-text">
+                Мы сближаем города, вы - живете там, где хотите.
+                </p>
+              </section>
+
+              <section class="section projects">
+                <div class="container">
+                  <h2 class="section-titles">Наши самолёты</h2>
+                    <div class="swiper projects-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide projects-slide">
+                            <img src="img/samolet-slider.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                                <div class="project-text">
+                                    <div class="project-time">
+                                        <div class="project-description">
+                                        </div>
+                                    </div>
+                                    <div class="project-cost">
+                                            <div class="project-description">
+                                            </div>
+                                    </div>
+                                    <div class="project-feetback">
+                                            <div class="project-description">
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide projects-slide">
+                            <img src="img/samolet-slider2.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                                <div class="project-text">
+                                    <div class="project-time">
+                                        <div class="project-description">       
+                                        </div>
+                                    </div>
+                                    <div class="project-cost">
+                                        <div class="project-description">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="project-feetback">
+                                        <div class="project-description">                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide projects-slide">
+                            <img src="img/samolet-slider3.jpg" alt="Сайт строительной фирмы “Велстрой”" class="project-image">
+                                <div class="project-text">
+                                    <div class="project-time">
+                                        <div class="project-description">
+                                        </div>
+                                    </div>
+                                    <div class="project-cost">                                       
+                                        <div class="project-description">                       
+                                        </div>
+                                    </div>
+                                    <div class="project-feetback">                                       
+                                        <div class="project-description">                                          
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects-pagination"></div>
+                    </div>
+                </div>
+            </section>
+        
+        <section class="restaurants">
+            <div class="section-heading">
+              <h2 class="section-title" id="action">Наши акции и предложения    </h2>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <img src="img/promotion1.jpg" alt="image" class="card-image" />
+                <div class="card-text">
+                  <div class="card-heading">
+                    <h3 class="card-title">Возврат и обмен билетов</h3>
+                  </div>
+                 <p>Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+                    Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли.
+                    Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить её на потом.</p>
+                </div>
+                </div>
+             
+              <div class="card">
+                <img src="img/promotion2.jpg" alt="image" class="card-image" />
+                <div class="card-text">
+                  <div class="card-heading">
+                    <h3 class="card-title">Лучшие предложения</h3>
+                  </div>
+                 <p>Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть,через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</p>
+                </div>
+              </div>
+            
+              <div class="card">
+                <img src="img/promotion3.jpg" alt="image" class="card-image" />
+                <div class="card-text">
+                  <div class="card-heading">
+                    <h3 class="card-title">Видеться чаще</h3>
+                  </div>
+                  <p>С начала января мы расширяем географию полетов по России, чтобы вы могли чаще видитесь с близкими. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+                </div>
+                </div>
+            
+              <div class="card">
+                <img src="img/promotion4.jpg" alt="image" class="card-image" />
+                <div class="card-text">
+                  <div class="card-heading">
+                    <h3 class="card-title">Все снова включено</h3>
+                  </div>
+                  <p>С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</p>
+                </div>
+            </div>
+          </section>
+          
+          <form method="post" action="">
+          <section class="action-promo">
+            <h1 class="action-title">Подписаться на закрытые акции</h1>
+          <p class="action-text">E-mail:<input type="email" name="email" placeholder="Введите E-mail" class="action-email" required/></p>
+          <p><input type="submit" name="subscribe" value="Подписаться" class="action-button"/></p>
+          </section>
+          </form>
+
+        <footer class="footer" id="contact">
+            <div class="container">
+              <div class="footer-block">
+                <img src="img/logo.png" alt="logo" class="logo footer-logo" />
+                <nav class="footer-nav">
+                  <a href="#action" class="footer-link">Акции</a>
+                  <a href="#" class="footer-link">Доставка билета</a>
+                  <a href="#" class="footer-link">Пресс-центр</a>
+                  <a href="#contact" class="footer-link">8 977 505-18-94</a> 
+                </nav>
+                <div class="social-links">
+                  <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram" /></a>
+                  <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook" /></a>
+                  <a href="#" class="social-link"><img src="img/vk.svg" alt="vk" /></a>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </main>
+      </header>
+    </div>
+    <script src="js/wow.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
